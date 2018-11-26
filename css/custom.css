@@ -1,0 +1,251 @@
+body #homepage, #homepage .jumbotron, #homepage .breadcrumb {
+  color: #e6f2ff;
+  background-color: #33334d;
+}
+
+body #adas-page, #adas-page .jumbotron, #adas-page .breadcrumb {
+  color: #e6f2ff;
+  background-color: #4d004d;
+}
+
+body #graces-page, #graces-page .jumbotron, #graces-page .breadcrumb {
+  color: #e6f2ff;
+  background-color: #003366;
+}
+
+body #kats-page, #kats-page .jumbotron, #kats-page .breadcrumb {
+  color: #e6f2ff;
+  background-color: #989898;
+}
+
+ol a {
+  color: #e6f2ff;
+}
+
+#homepage ol a:hover {
+  color: #b3b3cc;
+}
+
+ol a:hover {
+  color: #99ccff;
+}
+
+.jumbotron {
+  padding-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 150px;
+}
+
+.jumbotron .h3 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+.breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item::before {
+  color: #e6f2ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+#homepage a:hover {
+  color: #b3b3cc;
+  text-decoration: none;
+}
+
+#adas-page a:hover {
+  color: #ffccff;
+  text-decoration: none;
+}
+
+#graces-page a:hover {
+  color: #99ccff;
+  text-decoration: none;
+}
+
+#kats-page a:hover {
+  color: #181818;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  decoration: none;
+  color: #e6f2ff;
+}
+
+main {
+  padding: 10px 0 20px 0;
+  border-top: 1px solid #e6f2ff;
+  border-bottom: 1px solid #e6f2ff;
+}
+
+#homepage span {
+  color: #b3b3cc;
+}
+
+#adas-page span {
+  color: #ffccff;
+}
+
+#graces-page span {
+  color: #99ccff;
+}
+
+#kats-page span {
+  color: #181818;
+}
+
+#ada-lovelace a, #grace-hopper a, #katherine-johnson a {
+  font-family: 'Philosopher', sans-serif;
+}
+
+#ada-lovelace a:hover, #grace-hopper a:hover, #katherine-johnson a:hover {
+  color: #b3b3cc;
+}
+
+#ada-lovelace, #grace-hopper {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6f2ff;
+}
+
+@media screen and (min-width: 576px) {
+  #ada-lovelace, #grace-hopper {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}
+
+#life-dates {
+  border-bottom: 1px solid #e6f2ff;
+  margin-bottom: 20px;
+}
+
+#graces-page #life-dates-too-wide p {
+  padding-left: 40px;
+}
+
+#kats-page #life-dates p {
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+#bio {
+  font-size: 20px;
+}
+
+blockquote {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+  border-top: 1px solid #e6f2ff;
+  border-bottom: 1px solid #e6f2ff;
+}
+
+@media screen and (min-width: 768px) {
+  blockquote {
+    border: 0;
+  }
+}
+
+#adas-page blockquote {
+  color: #ffccff;
+}
+
+#graces-page blockquote {
+  color: #99ccff;
+}
+
+#kats-page blockquote {
+  color: #181818;
+}
+
+.text-row {
+  padding-top: 20px;
+}
+
+#last-para {
+  padding-bottom: 10px;
+}
+
+main ul {
+  border-top: 1px solid #e6f2ff;
+  list-style-type: none;
+  padding: 40px 0 20px 0;
+  margin: 0;
+}
+
+main li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#adas-page main li a:hover {
+  color: #ffccff;
+}
+
+#graces-page main li a:hover {
+  color: #99ccff;
+}
+
+#kats-page main li a:hover {
+  color: #181818;
+}
+
+footer a {
+  color: #e6f2ff;
+}
+
+footer a:visited {
+  color: #e6f2ff;
+}
+
+footer {
+  padding: 40px 0;
+}
+
+#wikipedia-link {
+  width: 100%;
+}
+
+#adas-page #wikipedia-link a:hover {
+  color: #ffccff;
+}
+
+#graces-page #wikipedia-link a:hover {
+  color: #99ccff;
+}
+
+#kats-page #wikipedia-link a:hover {
+  color: #181818;
+}
+
+#back-to-top {
+  font-size: 16px;
+  color: #e6f2ff;
+}
+
+#homepage #back-to-top:hover {
+  color: #b3b3cc;
+  text-decoration: none;
+}
+
+#adas-page #back-to-top:hover {
+  color: #ffccff;
+  text-decoration: none;
+}
+
+#graces-page #back-to-top:hover {
+  color: #99ccff;
+  text-decoration: none;
+}
+
+#kats-page #back-to-top:hover {
+  color: #181818;
+  text-decoration: none;
+}
